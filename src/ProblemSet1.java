@@ -21,7 +21,12 @@ public class ProblemSet1 {
          * 
          * What is the area (in square millimeters) of an 8.5-by-11-inch sheet of paper?
          */
-        
+
+        double length = 11;
+        double width = 8.5;
+        double inchToMilli = 645.16;
+        System.out.printf("\n%,.2f square millimeters\n", length * width * inchToMilli);
+       
         
         
         /*
@@ -29,7 +34,8 @@ public class ProblemSet1 {
          * 
          * What is the perimeter (in centimeters) of an 8.5-by-11-inch sheet of paper?
          */
-        
+        double inchToCenti = 2.54;
+        System.out.println("\n" + (((2 * length) + (2 * width)) * inchToCenti) + " centimeters \n");
         
         
         /*
@@ -47,16 +53,16 @@ public class ProblemSet1 {
          * Given the grading policy and the homework, quiz, and test grades I received,
          * what marking period grade will I get?
          */
-        
-        int homework1 = 88;
-        int homework2 = 91;
-        int homework3 = 0;
-        int quiz1 = 84;
-        int quiz2 = 89;
-        int quiz3 = 93;
-        int test1 = 74;
-        int test2 = 87;
-        int test3 = 82;
+
+        // int homework1 = 88;
+        // int homework2 = 91;
+        // int homework3 = 0;
+        // int quiz1 = 84;
+        // int quiz2 = 89;
+        // int quiz3 = 93;
+        // int test1 = 74;
+        // int test2 = 87;
+        // int test3 = 82;
         
         
         
