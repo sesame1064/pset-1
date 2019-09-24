@@ -101,5 +101,35 @@ public class ProblemSet1 {
 
         
 
+        /*
+         * Exercise 7.
+         *
+         * I am planning a class trip next month. How many buses do I need, and how many
+         * people will be on the last bus?
+         */
+        double students = 273;
+        double teachers = 28;
+        double busCapcity = 54;
+            
+       System.out.println( "\n" + Math.round(Math.ceil((students + teachers)/busCapcity)) + " buses are needed, with " + Math.round((students + teachers)%busCapcity) + " passengers on the last bus. \n");
+ 
+
+
+
+
+        /*
+         * Exercise 8.
+         *
+         * What is the surface area of a standard Cornhole board?
+         */
+        double cornWidth = 24;
+        double cornLength = 48;
+        double cornDiameter = 6;
+
+        System.out.printf("%,.2f square inches. \n" ,(cornWidth * cornLength) - (Math.PI * Math.pow(cornDiameter/2 , 2)));
+
+
+
+
     }
 }
