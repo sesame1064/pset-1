@@ -130,29 +130,7 @@ public class ProblemSet1 {
 
 
 
-        /*
-         * Exercise 9.
-         *
-         * Are the years 2020, 2100, and 2400 leap years?
-         */
-        int y020 = 2020;
-        int y100 = 2100;
-        int y400 = 2400;
 
-        boolean fTest = y020 % 4 == 0;
-        fTest = y020 % 100 != 0 || y020 % 400 == 0; //first one
-
-        boolean sTest = y100 % 4 == 0;
-        sTest = y100 % 100 != 0 || y100 % 400 == 0; // second one
-
-        boolean tTest = y400 % 4 == 0;
-        tTest = y400 % 100 != 0 || y400 % 400 == 0;//third one
-
-        System.out.println("\n" + y020 + " is a leap year..." + fTest + ".");
-        System.out.println(y100 + " is a leap year..." + sTest + ".");
-        System.out.println(y400 + " is a leap year..." + tTest + ".\n");
-
-   
 
     }
 }
